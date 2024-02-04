@@ -13,7 +13,8 @@ Método: POST
 ### Tecnologias Utilizadas:
 - Java
 - Kafka
-- 
+- Spring
+  
 ## Serviço Go (Processamento de Produtos)
 
 O serviço em Go consome o tópico do Kafka onde os produtos são publicados pelo serviço Java. Ele processa esses produtos de acordo com a lógica de negócios definida.
